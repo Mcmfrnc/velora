@@ -1,6 +1,8 @@
-# PEERLY - English Learning Web App
+# VELORA - English Learning Web App
 
-A peer-to-peer English learning web application where users practice movie scene dialogs together with real-time speech recognition feedback.
+Learn Naturally. Speak Confidently.
+
+Velora is a language learning platform that helps learners improve their English through movies, conversations, stories, podcasts, and other real-world content.
 
 ## Features
 
