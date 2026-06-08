@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>PEERLY - English Learning with Movie Dialogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Landing Page -->
+        <div id="landing-screen" class="screen">
+            <div class="landing-container">
+                <!-- Modern Header -->
+                <header class="modern-header">
+                    <div class="header-content">
+                        <div class="logo-container">
+                            <div class="logo-icon-modern">
+                                <div class="logo-ripple-container">
+                                    <div class="logo-ripple ripple-1"></div>
+                                    <div class="logo-ripple ripple-2"></div>
+                                    <div class="logo-ripple ripple-3"></div>
+                                </div>
+                                <div class="logo-icon">P</div>
+                            </div>
+                            <span class="logo-text-modern">PEERLY</span>
+                        </div>
+                        <div class="header-tagline">
+                            <span>Deeper Learning</span>
+                            <span>No Pressure</span>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Modern Hero Section -->
+                <section class="modern-hero-section">
+                    <div class="modern-hero-content">
+                        <div class="hero-text-container">
+                            <h1 class="modern-hero-title">
+                                Speak English.<br>
+                                <span class="highlight-modern">Practice</span> with peers.<br>
+                                Build confidence.
+                            </h1>
+                            <p class="modern-hero-subtitle">
+                                Rated by progress — not perfection. Matched by level — not looks.
+                            </p>
+                        </div>
+
+                        <!-- Modern Character Interaction -->
+                        <div class="modern-character-interaction">
+                            <div class="modern-chat-bubble left">
+                                <p>"You're a wizard, Harry."</p>
+                            </div>
+                            <div class="modern-chat-bubble right">
+                                <p>"I'm a what?!"</p>
+                            </div>
+                            <div class="modern-character-avatars">
+                                <div class="modern-character-avatar left">
+                                    <div class="avatar-container">
+                                        <img src="https://via.placeholder.com/60x60/4A90E2/white?text=H" alt="Harry">
+                                        <div class="mic-indicator-modern">
+                                            <span class="mic-icon-modern">🎤</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modern-character-avatar right">
+                                    <div class="avatar-container">
+                                        <img src="https://via.placeholder.com/60x60/F5A623/white?text=G" alt="Girl">
+                                        <div class="mic-indicator-modern">
+                                            <span class="mic-icon-modern">🎤</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modern-cta-container">
+                            <button id="get-started-btn" class="modern-cta-button">
+                                <span class="cta-text">Get Started</span>
+                                <span class="cta-subtext">Practice Speaking</span>
+                            </button>
+                            
+                            <p class="modern-hero-footer">
+                                Join <span class="user-count-modern">2 million</span> learners. Completely<br>
+                                anonymous, safe, and immersive.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- How it works Section -->
+                <section class="how-it-works-section">
+                    <h2 class="section-title">How it works</h2>
+                    
+                    <div class="steps-container">
+                        <div class="step-card">
+                            <div class="step-icon">👥</div>
+                            <h3>Get matched instantly</h3>
+                            <p>Connect with learners at your level from around the world in seconds.</p>
+                        </div>
+                        
+                        <div class="step-card">
+                            <div class="step-icon">🎭</div>
+                            <h3>Roleplay together</h3>
+                            <p>Practice real conversations in movie scenes and everyday situations.</p>
+                        </div>
+                        
+                        <div class="step-card">
+                            <div class="step-icon">📈</div>
+                            <h3>Speak better, faster</h3>
+                            <p>Get instant feedback and corrections to improve your pronunciation and fluency.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Learning Features Section -->
+                <section class="learning-section">
+                    <h2 class="section-title">Learning that<br>feels like play.</h2>
+                    <p class="section-subtitle">Immerse yourself in movie scenes and<br>learn with peers worldwide.</p>
+                    
+                    <div class="features-container">
+                        <div class="feature-card">
+                            <div class="feature-icon">🎬</div>
+                            <h3>Movie Scenes</h3>
+                            <p>Practice with authentic dialogues from popular movies and TV shows.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">💬</div>
+                            <h3>Daily Phrases</h3>
+                            <p>Master everyday conversations with practical phrases and expressions.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🏆</div>
+                            <h3>Challenges</h3>
+                            <p>Take on speaking challenges and compete with learners globally.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Testimonials Section -->
+                <section class="testimonials-section">
+                    <h2 class="section-title">Safe. Social. Effective.</h2>
+                    
+                    <div class="testimonials-container">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <span class="user-flag">🇻🇳</span>
+                                <span class="user-name">Minh-Quy</span>
+                            </div>
+                            <p class="testimonial-text">"The movie scenes make learning so engaging! I've improved my pronunciation dramatically."</p>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <span class="user-flag">🇯🇵</span>
+                                <span class="user-name">Akira</span>
+                            </div>
+                            <p class="testimonial-text">"I love the instant feedback. It's like having a personal English coach available 24/7."</p>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <span class="user-flag">🇧🇷</span>
+                                <span class="user-name">Ana</span>
+                            </div>
+                            <div class="rating">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Amazing app! I went from shy to confident speaker in just a few weeks."</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CTA Section -->
+                <section class="final-cta-section">
+                    <div class="cta-content">
+                        <div class="cta-icon">🎯</div>
+                        <h2>Voice-only, no cameras.</h2>
+                        <p>Instant matches if you feel<br>uncomfortable, just skip.</p>
+                        <p class="cta-note">No sign-up required. Safe & anonymous.</p>
+                        <button id="start-practicing-btn" class="cta-button">🎯 Peerly.live</button>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer class="landing-footer">
+                    <div class="footer-content">
+                        <div class="footer-links">
+                            <a href="#about">ABOUT</a>
+                            <a href="#faq">FAQ</a>
+                            <a href="#safety">SAFETY</a>
+                            <a href="#contact">CONTACT</a>
+                        </div>
+                        <p class="footer-copyright">© 2024 Peerly live. All rights reserved.</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="screen hidden">
+            <div class="loading-content">
+                <h1>PEERLY</h1>
+                <p id="loading-message">Connecting to your learning partner...</p>
+                <div id="loading-animation" class="loading-animation"></div>
+            </div>
+        </div>
+
+        <!-- Match Found Screen -->
+        <div id="match-found-screen" class="screen hidden">
+            <div class="match-content">
+                <div id="match-animation" class="match-animation"></div>
+                <h1>Match Found!</h1>
+                <p>Great! We found you a learning partner.</p>
+                <p>Get ready to practice together!</p>
+            </div>
+        </div>
+
+        <!-- Setup Screen -->
+        <div id="setup-screen" class="screen hidden">
+            <div class="setup-content">
+                <h1>Choose Your Character</h1>
+                <p class="character-subtitle">Select which character you'd like to play in this scene</p>
+                <div class="character-selection" id="character-selection-container">
+                    <!-- Characters will be dynamically loaded here -->
+                </div>
+                <button id="start-session" class="primary-btn" disabled>Start Learning Session</button>
+            </div>
+        </div>
+
+        <!-- Movie Selection Screen -->
+        <div id="movie-selection-screen" class="screen hidden">
+            <div class="movie-selection-content">
+                <h1>Choose Your Movie Scene</h1>
+                <p class="selection-subtitle">Vote with your partner to select a movie scene to practice</p>
+                
+                <div class="partner-status">
+                    <div class="partner-info">
+                        <img id="partner-avatar-small" src="" alt="">
+                        <span id="partner-name-display">Partner</span>
+                        <span id="partner-vote-status" class="vote-status">Choosing...</span>
+                    </div>
+                </div>
+
+                <div class="movies-grid">
+                    <div class="movie-card" data-movie="family-guy">
+                        <div class="movie-poster">
+                            <img src="https://via.placeholder.com/200x280/4CAF50/white?text=Family+Guy" alt="Family Guy">
+                        </div>
+                        <div class="movie-info">
+                            <h3>Family Guy</h3>
+                            <p>Peter & Stewie's Living Room Banter</p>
+                            <div class="movie-details">
+                                <span class="difficulty easy">Easy</span>
+                                <span class="dialog-count">6 characters</span>
+                            </div>
+                        </div>
+                        <div class="vote-indicator" id="vote-family-guy"></div>
+                    </div>
+
+                    <div class="movie-card" data-movie="the-office">
+                        <div class="movie-poster">
+                            <img src="https://via.placeholder.com/200x280/2196F3/white?text=The+Office" alt="The Office">
+                        </div>
+                        <div class="movie-info">
+                            <h3>The Office</h3>
+                            <p>Jim & Dwight's Desk Pranks</p>
+                            <div class="movie-details">
+                                <span class="difficulty medium">Medium</span>
+                                <span class="dialog-count">6 characters</span>
+                            </div>
+                        </div>
+                        <div class="vote-indicator" id="vote-the-office"></div>
+                    </div>
+
+                    <div class="movie-card" data-movie="friends">
+                        <div class="movie-poster">
+                            <img src="https://via.placeholder.com/200x280/FF9800/white?text=Friends" alt="Friends">
+                        </div>
+                        <div class="movie-info">
+                            <h3>Friends</h3>
+                            <p>Ross & Rachel's Coffee Shop Talk</p>
+                            <div class="movie-details">
+                                <span class="difficulty medium">Medium</span>
+                                <span class="dialog-count">6 characters</span>
+                            </div>
+                        </div>
+                        <div class="vote-indicator" id="vote-friends"></div>
+                    </div>
+
+                    <div class="movie-card" data-movie="sherlock">
+                        <div class="movie-poster">
+                            <img src="https://via.placeholder.com/200x280/9C27B0/white?text=Sherlock" alt="Sherlock">
+                        </div>
+                        <div class="movie-info">
+                            <h3>Sherlock</h3>
+                            <p>Holmes & Watson's Investigation</p>
+                            <div class="movie-details">
+                                <span class="difficulty hard">Hard</span>
+                                <span class="dialog-count">6 characters</span>
+                            </div>
+                        </div>
+                        <div class="vote-indicator" id="vote-sherlock"></div>
+                    </div>
+
+                    <div class="movie-card" data-movie="marvel">
+                        <div class="movie-poster">
+                            <img src="https://via.placeholder.com/200x280/F44336/white?text=Marvel" alt="Marvel">
+                        </div>
+                        <div class="movie-info">
+                            <h3>Marvel</h3>
+                            <p>Iron Man & Captain America's Debate</p>
+                            <div class="movie-details">
+                                <span class="difficulty medium">Medium</span>
+                                <span class="dialog-count">6 characters</span>
+                            </div>
+                        </div>
+                        <div class="vote-indicator" id="vote-marvel"></div>
+                    </div>
+
+                    <div class="movie-card" data-movie="star-wars">
+                        <div class="movie-poster">
+                            <img src="https://via.placeholder.com/200x280/607D8B/white?text=Star+Wars" alt="Star Wars">
+                        </div>
+                        <div class="movie-info">
+                            <h3>Star Wars</h3>
+                            <p>Galaxy Far, Far Away</p>
+                            <div class="movie-details">
+                                <span class="difficulty hard">Hard</span>
+                                <span class="dialog-count">6 characters</span>
+                            </div>
+                        </div>
+                        <div class="vote-indicator" id="vote-star-wars"></div>
+                    </div>
+
+                    <div class="movie-card" data-movie="harry-potter">
+                        <div class="movie-poster">
+                            <img src="https://via.placeholder.com/200x280/9C27B0/white?text=Harry+Potter" alt="Harry Potter">
+                        </div>
+                        <div class="movie-info">
+                            <h3>Harry Potter</h3>
+                            <p>Hogwarts Adventures</p>
+                            <div class="movie-details">
+                                <span class="difficulty medium">Medium</span>
+                                <span class="dialog-count">6 characters</span>
+                            </div>
+                        </div>
+                        <div class="vote-indicator" id="vote-harry-potter"></div>
+                    </div>
+                </div>
+
+                <div class="selection-status">
+                    <div id="voting-status" class="voting-info">
+                        <p>Select a movie to vote. Both players must agree to start.</p>
+                    </div>
+                    <button id="start-with-selection" class="primary-btn" disabled>Start Scene</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Learning Screen -->
+        <div id="learning-screen" class="screen hidden">
+            <div class="header">
+                <div class="connection-status">
+                    <span id="connection-indicator" class="status-dot"></span>
+                    <span id="connection-text">Connecting...</span>
+                </div>
+                <div class="scene-info">
+                    <h2 id="scene-title">Family Guy - Living Room Scene</h2>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="characters-panel">
+                    <div class="character-info" id="peer1-info">
+                        <img id="peer1-avatar" src="" alt="">
+                        <span id="peer1-name">You</span>
+                        <div id="peer1-mic" class="mic-indicator"></div>
+                    </div>
+                    <div class="vs-divider">VS</div>
+                    <div class="character-info" id="peer2-info">
+                        <img id="peer2-avatar" src="" alt="">
+                        <span id="peer2-name">Partner</span>
+                        <div id="peer2-mic" class="mic-indicator"></div>
+                    </div>
+                </div>
+
+                <div class="dialog-area">
+                    <div id="current-dialog" class="dialog-card">
+                        <div class="dialog-header">
+                            <span id="current-speaker">Peter</span>
+                            <span id="dialog-number">1/10</span>
+                        </div>
+                        <div id="dialog-text" class="dialog-content">
+                            "Hey Lois, remember that time when I..."
+                        </div>
+                        <div class="dialog-actions">
+                            <button id="record-btn" class="record-btn">🎤 Hold to Speak <small>(or press Space)</small></button>
+                            <div id="speech-feedback" class="speech-feedback hidden"></div>
+                        </div>
+                    </div>
+
+                    <div class="dialog-progress">
+                        <div id="progress-bar" class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                        <span id="progress-text">0/10 dialogs completed</span>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="skip-btn" class="secondary-btn">Skip Dialog</button>
+                    <button id="next-scene-btn" class="primary-btn hidden">Next Scene</button>
+                    <button id="end-session-btn" class="danger-btn">End Session</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen hidden">
+            <div class="results-content">
+                <h1>Session Complete!</h1>
+                <div class="results-stats">
+                    <div class="stat-card">
+                        <h3 id="accuracy-score">85%</h3>
+                        <p>Accuracy</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 id="dialogs-completed">8/10</h3>
+                        <p>Dialogs Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 id="session-time">12:34</h3>
+                        <p>Session Time</p>
+                    </div>
+                </div>
+                <div class="results-actions">
+                    <button id="new-session-btn" class="primary-btn">Start New Session</button>
+                    <button id="different-scene-btn" class="secondary-btn">Try Different Scene</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
