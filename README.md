@@ -86,7 +86,7 @@ http://localhost:3000
 ## File Structure
 
 ```
-PEERLY/
+Velora/
 ├── index.html          # Main application HTML
 ├── styles.css          # Application styling
 ├── app.js             # Frontend JavaScript logic
@@ -178,6 +178,6 @@ For issues or questions, please check the troubleshooting section or create an i
 
 ---
 
-**Happy Learning with PEERLY!** 🎭🗣️
+**Happy Learning with Velora!** 🎭🗣️
 
 
