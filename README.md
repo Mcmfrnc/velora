@@ -6,11 +6,11 @@ Velora is a language learning platform that helps learners improve their English
 
 ## Features
 
-Real-time conversation practice
-Movie-based learning experiences
-Speech recognition feedback
-Pronunciation improvement
-Interactive learning sessions
+- Real-time conversation practice
+- Movie-based learning experiences
+- Speech recognition feedback
+- Pronunciation improvement
+- Interactive learning sessions
 
 ## Technology Stack
 
