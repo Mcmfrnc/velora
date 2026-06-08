@@ -269,7 +269,7 @@ app.get('/api/room/:id', (req, res) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`PEERLY server running on port ${PORT}`);
+    console.log(`Velora server running on port ${PORT}`);
     console.log(`Open http://localhost:${PORT} in your browser`);
 });
 
