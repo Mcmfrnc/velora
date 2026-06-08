@@ -6,12 +6,11 @@ Velora is a language learning platform that helps learners improve their English
 
 ## Features
 
-- **Peer-to-Peer Connection**: Connect with other learners in real-time
-- **Movie Scene Dialogs**: Practice with authentic Family Guy character dialogs
-- **Speech Recognition**: AI-powered feedback on pronunciation and accuracy
-- **Real-time Feedback**: Visual indicators for correct/incorrect speech
-- **Progress Tracking**: Monitor accuracy and completion rates
-- **Modern UI**: Beautiful, responsive design with smooth animations
+Real-time conversation practice
+Movie-based learning experiences
+Speech recognition feedback
+Pronunciation improvement
+Interactive learning sessions
 
 ## Technology Stack
 
