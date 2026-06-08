@@ -1,5 +1,5 @@
 {
-  "name": "Velora",
+  "name": "velora",
   "version": "1.0.0",
   "description": "A peer-to-peer English learning web app with movie scene dialogs and speech recognition",
   "main": "server.js",
